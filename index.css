@@ -20,12 +20,7 @@
     margin-left: -300px;
 }
 
-@media screen and (max-width: 600px) {
-    .content {
-        margin-top: -150px;
-        margin-left: -100px; 
-    }
-}
+
 
 .select-block {
     padding: 0;
@@ -61,6 +56,12 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .button-group {
+       padding-bottom: 15px;
+    }
 }
 
 .button {
