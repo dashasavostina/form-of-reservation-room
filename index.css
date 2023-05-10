@@ -3,6 +3,7 @@
 
 .page {
     background-color: #d6eaf8;
+    margin: 0 auto;
 }
 
 .content {
@@ -13,11 +14,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -250px;
-    margin-left: -300px;
 }
 
 
@@ -61,7 +57,7 @@
 
 
 .button {
-    text-decoration: none;
+  text-decoration: none;
   display: inline-block;
   color: white;
   padding: 20px 30px;
@@ -84,5 +80,25 @@
 @media screen and (max-width: 600px) {
     .button-group {
        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+   
+    .content {
+       width: 400px;
+       height: 400px;
+    }
+    .form-title {
+        font-size: 25px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        margin: 5px 10px;
+        font-size: 13px;
+    }
+    .button-group {
+        padding-top: 15px;
     }
 }
