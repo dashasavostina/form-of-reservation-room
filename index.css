@@ -86,19 +86,21 @@
 @media screen and (max-width: 725px) {
    
     .content {
-       width: 400px;
+       width: 300px;
        height: 400px;
     }
     .form-title {
         font-size: 25px;
     }
-
+    .select-title {
+        font-size: 12px;
+    }
+    .select-subtitle {
+        font-size: 10px;
+    }
     .button {
-        padding: 10px 20px;
-        margin: 5px 10px;
-        font-size: 13px;
+        padding: 10px 10px;
+        margin: 2.5px 10px;
+        font-size: 10px;
     }
-    .button-group {
-        padding-top: 15px;
-    }
-}
+   
