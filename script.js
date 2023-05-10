@@ -4,7 +4,7 @@ const formObj = document.querySelector('.reserve-form');
   
 // слушатель резета формы      
 document.querySelector('.reset-button').addEventListener('click', () => {
-    document.querySelector('.booking-form').reset()
+    formObj.reset()
 })
       
 // функция заполнения списка переговорных     
