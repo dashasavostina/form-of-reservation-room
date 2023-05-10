@@ -1,5 +1,5 @@
 const roomSelect = document.querySelector('.room-select');
-      const floorSelect = document.querySelector('.floor-select');
+const floorSelect = document.querySelector('.floor-select');
   
 // слушатель резета формы      
 document.querySelector('.reset-button').addEventListener('click', () => {
@@ -24,7 +24,7 @@ updateFloorSelect(); // заполнить список этажей по умо
 updateRoomSelect(); // заполнить список переговорных по умолчанию
 
 // слушатель сабмита формы и вывода данных формы в формате json в консоль 
-document.querySelector('.booking-form').addEventListener('submit', e => {
+document.querySelector('.reserve-form').addEventListener('submit', e => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = {};
