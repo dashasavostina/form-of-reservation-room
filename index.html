@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <title>Форма бронирования переговорной</title>
+  </head>
+  <body class="page">
+    <div class="content">
+      <h1 class="form-title">ЗАРЕЗЕРВИРОВАТЬ</h1>
+      <form class="booking-form">
+        <div class="select-block">
+          <label class="select-title" for="tower-select">Выберите башню:</label>
+          <select class="tower-select select-subtitle" name="tower">
+            <option value="A">Башня А</option>
+            <option value="B">Башня Б</option>
+          </select>
+        </div>
+        <div class="select-block">
+          <label class="select-title" for="floor-select">Выберите этаж:</label>
+          <select class="floor-select select-subtitle" name="floor"></select>
+        </div>
+        <div class="select-block">
+          <label class="select-title" for="room-select">Выберите переговорную:</label>
+          <select class="room-select select-subtitle" name="room"></select>
+        </div>
+        <div class="select-block">
+          <label class="select-title" for="date-input">Выберите дату:</label>
+          <input class="select-subtitle select-date" id="date-input" type="date" name="date" required>
+        </div>
+        <div class="select-block">
+          <label class="select-title" for="time-input">Выберите время:</label>
+          <input class="select-subtitle select-time" id="time-input" type="time" name="time" min="09:00" max="18:00" required>
+        </div>
+        <div class="select-block">
+          <label class="select-title" for="comment-textarea">Комментарий:</label>
+          <textarea class="select-subtitle select-area" id="comment-textarea" name="comment"></textarea>
+        </div>
+        <div class="button-group">
+          <button class="button" type="submit">Отправить</button>
+          <button class="button reset-button" type="button">Очистить</button>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
