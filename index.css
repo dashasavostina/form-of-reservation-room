@@ -58,11 +58,7 @@
     padding-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
-    .button-group {
-       padding-bottom: 15px;
-    }
-}
+
 
 .button {
     text-decoration: none;
@@ -83,4 +79,10 @@
 
 .button:hover {
     background-position: right center;
+}
+
+@media screen and (max-width: 600px) {
+    .button-group {
+       padding-bottom: 15px;
+    }
 }
