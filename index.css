@@ -3,6 +3,8 @@
 
 .page {
     background-color: #d6eaf8;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
 }
 
 .content {
@@ -13,10 +15,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 28px;
 }
-
-
 
 .select-block {
     padding: 0;
@@ -25,19 +25,17 @@
 }
 
 .form-title {
-    font-family: 'Inter', sans-serif;
+    
     font-size: 45px;
     font-weight: 300;
 }
 
 .select-title {
-  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
 
 .select-subtitle {
-    font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 300;
     background-color: #7eb5fc;
@@ -54,8 +52,6 @@
     padding-top: 30px;
 }
 
-
-
 .button {
   text-decoration: none;
   display: inline-block;
@@ -63,7 +59,6 @@
   padding: 20px 30px;
   margin: 10px 20px;
   border-radius: 10px;
-  font-family: 'Inter', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
@@ -88,6 +83,7 @@
     .content {
        width: 300px;
        height: 400px;
+       margin-top: 16px;
     }
     .form-title {
         font-size: 25px;
